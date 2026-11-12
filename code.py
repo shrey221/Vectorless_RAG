@@ -8,7 +8,7 @@ import cohere
 load_dotenv()
 PAGEINDEX_API_KEY = os.getenv("PAGEINDEX_API_KEY")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
-
+print("Hi i m shrey")
 PDF_PATH = "Christ.pdf"
 
 pi_client = PageIndexClient(api_key=PAGEINDEX_API_KEY)
