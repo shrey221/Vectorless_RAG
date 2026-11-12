@@ -11,6 +11,7 @@ COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 print("Hi i m shrey")
 PDF_PATH = "Christ.pdf"
 print("Ammmaaaaaa")
+print("sssssss")
 
 pi_client = PageIndexClient(api_key=PAGEINDEX_API_KEY)
 co = cohere.Client(COHERE_API_KEY)
