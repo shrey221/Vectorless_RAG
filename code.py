@@ -13,6 +13,8 @@ PDF_PATH = "Christ.pdf"
 
 pi_client = PageIndexClient(api_key=PAGEINDEX_API_KEY)
 co = cohere.Client(COHERE_API_KEY)
+print("Shrey")
+print("My name is shrey ")
 
 resp = pi_client.submit_document(PDF_PATH)
 doc_id = resp["doc_id"]
